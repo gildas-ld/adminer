@@ -690,7 +690,7 @@ class Adminer {
 	* @return string expression to use in LIMIT, will be escaped
 	*/
 	function selectLimitProcess() {
-		return (isset($_GET["limit"]) ? $_GET["limit"] : "50");
+		return (isset($_GET["limit"]) ? $_GET["limit"] : "150");
 	}
 
 	/** Process length box in select

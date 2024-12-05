@@ -422,7 +422,7 @@ ORDER BY ORDINAL_POSITION", null, "") as $row) { //! requires MySQL 5
 	}
 
 	function selectLimitProcess() {
-		return (isset($_GET["limit"]) ? $_GET["limit"] : "50");
+		return (isset($_GET["limit"]) ? $_GET["limit"] : "150");
 	}
 
 	function selectLengthProcess() {
